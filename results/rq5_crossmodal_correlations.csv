@@ -1,0 +1,4 @@
+hypothesis,eeg_feature,fmri_feature,pearson_r,pearson_p,spearman_rho,spearman_p,ci_lower,ci_upper,n,expected_sign,direction_match,significant,status
+H1,alpha_peak_freq_mean,dmn_mean_connectivity,0.0669,0.5879,0.1062,0.3889,-0.1743,0.3005,68,positive,True,False,NOT SIGNIFICANT
+H2,frontal_theta_mean,dmn_mean_connectivity,-0.1101,0.3714,-0.1361,0.2685,-0.3396,0.1318,68,negative,True,False,NOT SIGNIFICANT
+H3,alpha_coherence_Fz_Pz,dmn_mean_connectivity,-0.169,0.1684,-0.1323,0.282,-0.3916,0.0724,68,positive,False,False,NOT SIGNIFICANT

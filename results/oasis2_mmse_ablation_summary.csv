@@ -1,0 +1,5 @@
+config,n_features,macro_f1,roc_auc,accuracy,mcc,mci_recall,f1_std
+mmse_only,1,0.8345,0.8136,0.854,0.6913,0.6731,0.0476
+imaging_only,11,0.6074,0.6783,0.6204,0.2191,0.5769,0.059
+all_shortlist,7,0.7571,0.8353,0.781,0.5239,0.6154,0.0673
+full_intensity,17,0.764,0.848,,,,

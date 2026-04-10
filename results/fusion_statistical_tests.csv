@@ -1,0 +1,4 @@
+Comparison,t_stat,t_p,w_stat,w_p,n_better,n_worse
+Late Fusion vs EEGNet,-3.1969,0.0021,0.0,0.0027,0,9
+Intermediate Fusion vs EEGNet,-4.1678,0.0001,0.0,0.0002,0,14
+DMN-only vs EEGNet,-7.4923,0.0,0.0,0.0,0,31
