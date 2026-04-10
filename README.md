@@ -4,7 +4,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![MNE](https://img.shields.io/badge/MNE--Python-EEG-00897B)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Independent undergraduate research by **Shlok Khare**, University of California, Davis.
 
