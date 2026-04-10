@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Early Detection of Memory Decline in MCI
+# PEARL-Neuro + OASIS-2 — Python dependencies
+# ─────────────────────────────────────────────────────────────────────────────
+# Install:  pip install -r requirements.txt
+#
+# External tools (not pip-installable):
+#   FSL  — skull stripping (bet) + registration (flirt)
+#          https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation
+#   DataLad — PEARL-Neuro raw file fetching
+#          conda install -c conda-forge datalad
+#          (or) pip install datalad
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core scientific stack ────────────────────────────────────────────────────
+numpy>=1.24,<2.0
+pandas>=2.0
+scipy>=1.11
+
+# ── Machine learning ─────────────────────────────────────────────────────────
+scikit-learn>=1.3
+
+# ── Deep learning ────────────────────────────────────────────────────────────
+# Install the CUDA variant separately if GPU is available:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0
+torchvision>=0.15
+
+# ── EEG ──────────────────────────────────────────────────────────────────────
+mne>=1.6
+mne-bids>=0.14
+
+# ── Neuroimaging ─────────────────────────────────────────────────────────────
+nibabel>=5.1
+nilearn>=0.10
+
+# ── Interpretability ─────────────────────────────────────────────────────────
+shap>=0.44
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.7
+seaborn>=0.13
+
+# ── Data I/O ─────────────────────────────────────────────────────────────────
+openpyxl>=3.1        # pandas read_excel for oasis_longitudinal_demographics.xlsx
