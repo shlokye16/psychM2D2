@@ -38,9 +38,6 @@ Which brain regions does Grad-CAM identify as most predictive of CDR-based decli
 **RQ5 — Cross-Modal Biological Correlation**
 Does EEG alpha coherence correlate with fMRI DMN connectivity in the same subjects?
 
-**RQ6 — Applied AI / EMMCAI** *(future work only)*
-One paragraph in Discussion or Future Work — not a primary research question.
-
 ### RQ Coverage in Paper
 
 | RQ | Introduction | Methods | Results | Discussion |
@@ -50,7 +47,6 @@ One paragraph in Discussion or Future Work — not a primary research question.
 | RQ3 | State it | Fusion model design | Aggregate ceiling + bimodal subgroup calibration + ResNet + LR MMSE ablation | When neuroimaging adds value |
 | RQ4 | Mention | Grad-CAM setup | Heatmap regions | Hippocampal atrophy literature |
 | RQ5 | Mention | Cross-modal correlation | Pearson/Spearman + power analysis | DMN disruption theory + independent variance finding |
-| RQ6 | Optional | N/A | N/A | Future Work only |
 
 ---
 
