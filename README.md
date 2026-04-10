@@ -94,7 +94,7 @@ If you use this code or build on this work, please cite:
 Khare, S. (2026). Early Detection of Memory Decline in MCI:
 A Multimodal EEG and Neuroimaging Framework for Pre-Symptomatic
 Genetic Risk Stratification. University of California, Davis.
-https://github.com/shlokye16/psychm2d2
+https://github.com/shlokye16/psychM2D2
 ```
 
 ---
