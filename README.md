@@ -1,4 +1,4 @@
-# Early Detection of Memory Decline in MCI
+# Preclinical Neural Divergence associated with Genetic Risk for Alzheimer’s Disease
 
 [![Paper Preprint](https://img.shields.io/badge/Zenodo-Paper%20Preprint-636B2F?logo=zenodo)](https://zenodo.org/records/19244475)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
@@ -90,9 +90,8 @@ FSL (`bet`, `flirt`) is required for OASIS-2 skull stripping and MRI registratio
 If you use this code or build on this work, please cite:
 
 ```
-Khare, S. (2026). Early Detection of Memory Decline in MCI:
-A Multimodal EEG and Neuroimaging Framework for Pre-Symptomatic
-Genetic Risk Stratification. University of California, Davis.
+Khare, S. (2026). Preclinical Neural Divergence associated with Genetic
+Risk for Alzheimer’s Disease: A Multimodal Resting-State EEG and Neuroimaging Study. University of California, Davis.
 https://github.com/shlokye16/psychM2D2
 ```
 
