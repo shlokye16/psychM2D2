@@ -59,7 +59,6 @@ We propose a multimodal framework to detect pre-symptomatic neurophysiological d
 │   ├── checkpoints/         # EEGNet (77 folds) + ResNet18 v2 (5 folds) checkpoints
 │   ├── figures/             # All publication figures
 │   └── *.csv                # Fold-level results, SHAP scores, fusion metrics
-├── report.md                # Full experimental log and results documentation
 ├── roadmap.md               # Research questions, paper structure, task plan
 └── README.md
 ```
