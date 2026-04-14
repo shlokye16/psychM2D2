@@ -1,6 +1,6 @@
 # Preclinical Neural Divergence associated with Genetic Risk for Alzheimer’s Disease
 
-[![Paper Preprint](https://img.shields.io/badge/Zenodo-Paper%20Preprint-636B2F?logo=zenodo)](https://zenodo.org/records/19244475)
+[![Paper Preprint](https://img.shields.io/badge/Zenodo-Paper%20Preprint-636B2F?logo=zenodo)](https://doi.org/10.5281/zenodo.19562977)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![MNE](https://img.shields.io/badge/MNE--Python-EEG-00897B)
@@ -21,7 +21,7 @@ The framework jointly models resting-state EEG biomarkers (temporal complexity, 
 
 ## Abstract
 
-*For the full methodology, results, and discussion, see the [paper preprint](https://zenodo.org/records/19244475).*
+*For the full methodology, results, and discussion, see the [paper preprint](https://doi.org/10.5281/zenodo.19562977).*
 
 We propose a multimodal framework to detect pre-symptomatic neurophysiological divergence between APOE ε4 and PICALM genetic risk carriers for Alzheimer's disease, using resting-state EEG and fMRI data from the PEARL-Neuro dataset (OpenNeuro ds004796, N=78). An EEGNet classifier trained under leave-one-subject-out cross-validation achieves strong subject-level discrimination, revealing a bimodal fold structure that reflects genuine individual variability in pre-symptomatic onset timing rather than model instability. SHAP analysis and EEGNet spatial filter extraction converge independently on bilateral temporal and frontal channels as primary discriminators. DMN connectivity emerges as the top individual SHAP feature despite showing no linear correlation with EEG features, motivating late fusion experiments that demonstrate genuine cross-modal complementarity in precisely the regime where EEG is maximally uncertain. A companion ResNet18 classifier on structural MRI from the OASIS-2 longitudinal dataset (N=150 baseline sessions) provides an independent CDR-based anchor for neuroanatomical attribution via Grad-CAM.
 
